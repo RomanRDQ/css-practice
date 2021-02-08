@@ -24,14 +24,14 @@ li{
 
 .banner p {
   font-family: 'Nunito Sans', sans-serif;
-  size: 19px;
+  font-size: 19px;
   color: #ffffff;
 }
 
 .under-banner a{
   color:#18181e;
   font-family: 'Nunito Sans', sans-serif;
-  size: 16px;
+  font-size: 16px;
 }
 
 .stats h2{
