@@ -183,11 +183,26 @@ h4{
   font-size: 24px;
   color: #242426;
   font-weight: 700;
-  text-align:center;
 }
 
 #our-team h5{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
   color: #595959;
+}
+#faq th p{
+  font-family: 'Teko', sans-serif;
+  font-size: 24px;
+  color: #242426;
+}
+#faq td p{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+  color: #595959;
+}
+
+footer li{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+  color: #242426;
 }
