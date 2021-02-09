@@ -45,8 +45,8 @@ header input:checked ~ .menu {
 
 header .menu {
   flex-direction: column;
-  align-items: flex-end;
-  font-size: 36px;
+  align-items: flex-start;
+  font-size: 26px;
 }
 
 header .menu a {
@@ -189,6 +189,11 @@ header{
   font-weight: 700;
 }
 
+.under-banner-button-book:hover{
+  background: var(--main-color);
+  color: white;
+}
+
 .under-banner-button-lat-videos{
   text-decoration: none;
   color: white;
@@ -201,27 +206,25 @@ header{
   font-weight: 700;
 }
 
+.under-banner-button-lat-videos:hover{
+  text-decoration: underline;
+  color: var(--main-color);
+}
+
 
 
 /*
-
-
-
-
-
 .under-banner a{
   color:#18181e;
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
   text-decoration: none;
 }
-
 .stats h2{
   font-family: 'Teko', sans-serif;
   font-size: 90px;
   color: #f8b710;
 }
-
 .stats p{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
@@ -232,7 +235,6 @@ h2{
   font-size: 50px;
   color: #242426;
 }
-
 h4{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 19px;
@@ -254,70 +256,58 @@ h4{
   display: block;
   margin: auto;
 }
-
 #about-us h2{
   font-family: 'Teko', sans-serif;
   font-size: 50px;
   color: #ffffff;
 }
-
 #about-us h4{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 19px;
   color: #ffffff;
 }
-
 #about-us article h4{
   font-family: 'Teko', sans-serif;
   font-size: 24px;
   color: #ffffff;
   font-weight: bold;
 }
-
 #about-us article p{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 17px;
   color: #ffffff;
 }
-
 #pricing h2{
   font-family: 'Teko', sans-serif;
   font-size: 50px;
   color: #ffffff;
 }
-
 #pricing .pricing-cont{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 19px;
   color: #ffffff;
 }
-
 #pricing article .pricing-category{
   font-family: 'Teko', sans-serif;
   font-size: 24px;
   color: #242426;
 }
-
 #pricing .dollar-sign{
   font-family: 'Teko', sans-serif;
   font-size: 50px;
   color: #f8b710;
 }
-
 .pricing-list{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 17px;
   color: #595959;
 }
-
 .pricing-book-button{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 14px;
   color: #ffffff;
   text-decoration: none;
 }
-
-
 .make-choice h2{
   font-family: 'Teko', sans-serif;
   font-size: 95px;
@@ -333,7 +323,6 @@ h4{
   font-size: 19px;
   color: #ffffff;
 }
-
 .second-button-book{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
@@ -346,7 +335,6 @@ h4{
   text-decoration: none;
   padding: 20px;
 }
-
 .learn-more{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 16px;
@@ -359,14 +347,12 @@ h4{
   max-width: 100%;
   padding: 17px 36px;
 }
-
 #our-team .instructor-name{
   font-family: 'Teko', sans-serif;
   font-size: 24px;
   color: #242426;
   font-weight: 700;
 }
-
 #our-team h5{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
@@ -382,7 +368,6 @@ h4{
   font-size: 17px;
   color: #595959;
 }
-
 footer li{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 17px;
