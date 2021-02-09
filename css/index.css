@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Teko:wght@300;400;500;600;700&display=swap');
 
+:root{
+  --main-color: #F8B710;
+}
+
+
+
 body{
     background-color: blueviolet;
     /* max-width: 980px;
@@ -17,11 +23,12 @@ body{
 nav{
   display:flex;
   justify-content: space-between;
-  padding: 30px 24px 30px 24px;
+  padding: 13px 24px 80px 12px;
 }
 
 .burger-icon {
-  font-size: 2rem;
+  font-size: 1.8rem;
+  color: #ffffff;
 }
 
 #burger-checkbox {
@@ -44,13 +51,24 @@ header .menu {
 header .menu a {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--main-color);
+  color: #ffffff;
   padding: 3px;
 }
 
-header .menu a:hover {
-  font-weight: bold;
+.menu{
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 17px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  max-width: 100%;
 }
+
+header .menu a:hover {
+  color: var(--main-color);
+}
+
 
 header{
   background-image: url(../img/main-background.png);
@@ -62,10 +80,22 @@ header{
   overflow: hidden;
   z-index: 0;
   border-radius: inherit;
+  padding: 20px;
   /* background-size: 139%;
   background-position-x: left 100%;
   background-position-y: bottom;
   background-repeat: no-repeat; */
+}
+
+@media (min-width: 757px){
+  header{
+    background-image: url(../img/main-background.png);
+    background-position: left;
+    /* background-position-x: 11%;
+    background-position-y: 55%; */
+    background-size: 150%;
+    background-repeat: no-repeat;
+  }
 }
 
 @media (max-width: 756px){
@@ -76,6 +106,17 @@ header{
   }
 }
 
+@media (min-width: 990px){
+  header{
+    background-image: url(../img/main-background.png);
+    /* background-position: center; */
+    background-position-x: 5%;
+    background-position-y: 55%;
+    background-size: 180%;
+    background-repeat: no-repeat;
+  }
+
+}
 @media (min-width: 990px) {
   header nav {
       display: flex;
@@ -89,47 +130,77 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-end;
     flex: 1;
   }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-/* .nav-list a{
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 17px;
-  color: #ffffff;
-  text-decoration: none;
-
-}
-
-li{
-  list-style-type: none;
-  
-}
-
 .banner h1{
   font-family: 'Teko', sans-serif;
-  font-size: 130px;
-  color: #f8b710;
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--main-color);
+  display: flex;
+  justify-content: left;
+  margin: 10px;
 }
+
+@media (min-width: 757px){
+  .banner h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 97px;
+    color: var(--main-color);
+  }
+}
+
 
 .banner p {
   font-family: 'Nunito Sans', sans-serif;
   font-size: 19px;
   color: #ffffff;
+  font-weight: 700;
+
 }
+
+.under-banner{
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-top: 40px;
+}
+
+.under-banner-button-book{
+  text-decoration: none;
+  color:black;
+  display: inline-block;
+  padding: 18px 30px;
+  background: white;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+  font-weight: 700;
+}
+
+.under-banner-button-lat-videos{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  padding: 18px 30px;
+  background: transparent;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  position: relative;
+  font-weight: 700;
+}
+
+
+
+/*
+
+
+
+
 
 .under-banner a{
   color:#18181e;
