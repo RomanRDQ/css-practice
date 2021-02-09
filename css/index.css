@@ -2,8 +2,8 @@
 
 body{
     background-color: blueviolet;
-    max-width: 980px;
-    margin: auto;
+    /* max-width: 980px;
+    margin: auto; */
 }
 
 .logo-bird{
@@ -51,9 +51,9 @@ header .menu a {
 header .menu a:hover {
   font-weight: bold;
 }
-/* https://github.com/RomanRDQ/css-practice/blob/gh-pages/img/main-background.png?raw=true */
+
 header{
-  background-image: url(img\main-background.png);
+  background-image: url(../img/main-background.png);
   position: absolute;
   top: 0;
   right: 0;
@@ -68,10 +68,11 @@ header{
   background-repeat: no-repeat; */
 }
 
-@media (max-width: 774px){
+@media (max-width: 756px){
   header{
-    background-position-x: center;
+    position: absolute;
     background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 
