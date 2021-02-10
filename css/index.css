@@ -8,8 +8,8 @@
 
 body{
     background-color: white;
-    /* max-width: 980px; */
-    margin: 0; 
+    max-width: 980px;
+    margin: auto; 
 }
 
 .logo-bird{
@@ -235,8 +235,6 @@ header{
 }
 
 /*
-
-
 .stats p{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
