@@ -7,9 +7,9 @@
 
 
 body{
-    background-color: blueviolet;
-    /* max-width: 980px;
-    margin: auto; */
+    background-color: white;
+    /* max-width: 980px; */
+    margin: 0; 
 }
 
 .logo-bird{
@@ -73,7 +73,7 @@ header .menu a:hover {
 
 header{
   background-image: url(../img/main-background.png);
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -82,10 +82,21 @@ header{
   z-index: 0;
   border-radius: inherit;
   padding: 20px;
+  padding-bottom: 500px;
   /* background-size: 139%;
   background-position-x: left 100%;
   background-position-y: bottom;
   background-repeat: no-repeat; */
+}
+
+@media (max-width: 756px){
+  header{
+
+    position: static;
+    background-repeat: no-repeat;
+    background-size: 210%;
+    background-position-x: 20%;
+  }
 }
 
 @media (min-width: 757px){
@@ -96,14 +107,6 @@ header{
     background-position-y: 55%;
     background-size: 150%;
     background-repeat: no-repeat;
-  }
-}
-
-@media (max-width: 756px){
-  header{
-    position: absolute;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 }
 
@@ -221,20 +224,15 @@ header{
   color: var(--main-color);
 }
 
-
-
-/*
-.under-banner a{
-  color:#18181e;
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 16px;
-  text-decoration: none;
-}
 .stats h2{
   font-family: 'Teko', sans-serif;
   font-size: 90px;
   color: #f8b710;
 }
+
+/*
+
+
 .stats p{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 15px;
