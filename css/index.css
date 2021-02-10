@@ -23,7 +23,7 @@ body{
 nav{
   display:flex;
   justify-content: space-between;
-  padding: 13px 24px 80px 12px;
+  padding: 13px 24px 110px 12px;
 }
 
 .burger-icon {
@@ -92,8 +92,8 @@ header{
   header{
     background-image: url(../img/main-background.png);
     background-position: left;
-    /* background-position-x: 11%;
-    background-position-y: 55%; */
+    background-position-x: 11%;
+    background-position-y: 55%;
     background-size: 150%;
     background-repeat: no-repeat;
   }
@@ -110,12 +110,22 @@ header{
 @media (min-width: 990px){
   header{
     background-image: url(../img/main-background.png);
-    /* background-position: center; */
+    background-position: center;
     background-position-x: 5%;
-    background-position-y: 55%;
+    background-position-y: 1%;
     background-size: 180%;
     background-repeat: no-repeat;
   }
+
+@media (min-width: 1040px){
+  header{
+    background-position: left top;
+    background-position-x: 5%;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-size: 140%;
+  }
+}
 
   header .menu {
     flex-direction: column;
