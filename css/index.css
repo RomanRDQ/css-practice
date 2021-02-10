@@ -102,11 +102,15 @@ header{
 @media (min-width: 757px){
   header{
     background-image: url(../img/main-background.png);
-    background-position: left;
+    position: static;
+    background-repeat: no-repeat;
+    background-size: 210%;
+    background-position-x: 35%;
+    /* position: static;
     background-position-x: 11%;
     background-position-y: 55%;
     background-size: 150%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
   }
 }
 
