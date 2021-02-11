@@ -352,7 +352,7 @@ h4{
 .panorama{
   background-image: url(../img/panorama-background.png);
   background-position: top;
-  height: 800px;
+  height: 1200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -362,11 +362,9 @@ h4{
 .panorama-photo img{
   width: 601.333px;
   height: 234px;
-  display: block;
+  /* display: block; */
   margin-left: auto;
   margin-right: auto;
-  display: flex;
-  align-items: flex-end;
 }
 
 .about-us-line{
@@ -390,6 +388,37 @@ h4{
   text-align: center;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.expressions{
+  background-image: url(../img/panorama-background.png);
+  background-position-y: 60%;
+}
+
+/* .expressions .about-body .about-body-images img{
+  
+} */
+
+.about-body-images{
+  width: 35px;
+}
+
+.exp-h{
+  font-family: var(--teko-font);
+  font-size: 22px;
+  color: white;
+  font-weight: 700;
+}
+
+.exp-p{
+  font-family: var(--nunito-font);
+  font-size: 17px;
+  color: white;
+  font-weight: 400;
+}
+
+.ab-exp{
+  padding-top: 30px;
 }
 /*
 
