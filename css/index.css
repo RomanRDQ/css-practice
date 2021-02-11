@@ -2,6 +2,8 @@
 
 :root{
   --main-color: #F8B710;
+  --gray-color: #595959;
+  --nunito-font: 'Nunito Sans', sans-serif;
 }
 
 
@@ -23,7 +25,7 @@ body{
 nav{
   display:flex;
   justify-content: space-between;
-  padding: 13px 24px 110px 12px;
+  padding: 13px 24px 20px 12px;
 }
 
 .burger-icon {
@@ -89,6 +91,8 @@ header{
   background-repeat: no-repeat; */
 }
 
+
+
 @media (max-width: 756px){
   header{
 
@@ -97,6 +101,13 @@ header{
     background-size: 210%;
     background-position-x: 20%;
   }
+
+  .stats{
+    display: flex;
+    flex-direction: column;
+  }
+
+    
 }
 
 @media (min-width: 757px){
@@ -232,7 +243,28 @@ header{
   font-family: 'Teko', sans-serif;
   font-size: 90px;
   color: #f8b710;
+  font-weight: 700;
 }
+
+.stats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-stats p{
+  display: flex;
+  justify-content: space-around;
+  font-family: var(--nunito-font);
+  color: var(--gray-color);
+  font-weight: 700;
+}
+
+.article-stats h2{
+  display: flex;
+  justify-content: space-around;
+}
+
+
 
 /*
 .stats p{
