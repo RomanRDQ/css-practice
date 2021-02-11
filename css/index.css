@@ -7,6 +7,9 @@
   --teko-font: 'Teko', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 
 
 body{
@@ -108,7 +111,9 @@ header{
     flex-direction: column;
   }
 
-    
+  /* #services-img{
+    width: 400px;
+  } */
 }
 
 @media (min-width: 757px){
@@ -124,6 +129,11 @@ header{
     background-size: 150%;
     background-repeat: no-repeat; */
   }
+
+  /* #services-img{
+    width: 30px;
+  } */
+
 }
 
 @media (min-width: 990px){
@@ -319,7 +329,7 @@ h4{
   font-family: var(--nunito-font);
   font-size: 17px;
   color: var(--gray-color);
-  padding-bottom: 40px;
+  padding-bottom: 0px;
   padding-top: 10px;
 }
 
@@ -330,14 +340,56 @@ h4{
   align-items: center;
 }
 
-.services-img{
-  width: 590px;
-  height: auto;
-}
+/* .services-img{
+  padding: auto;
+} */
 
 
 .w-section-after-services{
-  padding: 20px auto;
+  padding-bottom: 0px;
+}
+
+.panorama{
+  background-image: url(../img/panorama-background.png);
+  background-position: top;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.panorama-photo img{
+  width: 601.333px;
+  height: 234px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-us-line{
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#about-us h2{
+  color: white;
+  padding-top: 50px;
+}
+
+.line-blue{
+  width: 60px;
+}
+
+#about-us h4{
+  color: white;
+  text-align: center;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 /*
 
