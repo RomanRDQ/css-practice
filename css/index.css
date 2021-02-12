@@ -133,7 +133,10 @@ header{
   /* #services-img{
     width: 30px;
   } */
-
+  .ab-exp-media{
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 990px){
