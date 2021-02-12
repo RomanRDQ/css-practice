@@ -137,6 +137,12 @@ header{
     display: flex;
     flex-direction: row;
   }
+
+  /* .pricing-cont{
+    display: flex;
+    flex-direction: row;
+  } */
+
 }
 
 @media (min-width: 990px){
