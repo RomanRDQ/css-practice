@@ -7,7 +7,7 @@ const loading = document.getElementById("loading");
 
 const currentYear = new Date().getFullYear();
 
-const easterTime = new Date(`April 12 ${currentYear} 00:00:00`);
+const easterTime = new Date(`April 04 ${currentYear} 00:00:00`);
 
 function updateCountdown() {
   const currentTime = new Date();
