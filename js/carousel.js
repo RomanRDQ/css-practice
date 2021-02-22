@@ -1,9 +1,9 @@
 const images = [
-  'img/carousel-img/adidas-1500.png',
-  'img/carousel-img/aerodyne.png',
-  'img/carousel-img/aeroplane.png',
-  'img/carousel-img/akando.png',
-  'img/carousel-img/just-do-it.png',
+  "img/carousel-img/adidas-logo-small.jpg",
+  "img/carousel-img/aerodyne-logo-small.jpg",
+  "img/carousel-img/aeroplane-logo-small.jpg",
+  "img/carousel-img/akando-logo-small.jpg",
+  "img/carousel-img/just-do-it-logo-small.jpg",
 ];
 
 let currIdx = 0;

@@ -20,11 +20,10 @@
   font-size: 48px;
 }
 
-.container-of-carousel img{
+.carousel img{
   height: 200px;
-  width: auto;
+  width: auto;;
 }
-
 
 #carouselExampleControls{
   background-image: url(../img/panorama-background-short.jpg);
@@ -32,6 +31,6 @@
 }
 
 #carouselExampleControls img{
-  height: 400px;
+  padding: 30px;
   width: auto;
 }
