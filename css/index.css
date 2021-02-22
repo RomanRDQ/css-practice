@@ -536,12 +536,79 @@ h4{
   background-image: url(../img/panorama-background-short.jpg);
   background-repeat: repeat;
   padding-top: 250px;
+  padding-bottom: 100px;
 }
 
 
 .promo-clock h2{
   font-size: 64px;
   color: var(--main-color);
+}
+
+.sky-limit-container{
+  background-image: url(../img/main-background-clouds.png);
+  background-position: center;
+}
+
+.sky-limit-container h2{
+  font-size: 95px;
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sky-limit-container span{
+  color: var(--main-color);
+}
+
+.sky-limit-container h5{
+  color: white;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 600;
+  padding-bottom: 60px;
+}
+
+.sky-limit-container-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.second-request-button{
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  padding: 13px 35px;
+  background: var(--main-color);
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.second-request-button:hover{
+  background: linear-gradient(#FF8300, #f8b710);
+  color: white;
+}
+
+
+.learn-more-button{
+  text-decoration: none;
+  color:white;
+  display: inline-block;
+  padding: 13px 35px;
+  background: transparent;
+  font-size: 16px;
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
+  margin-right: 30px;
+  border: var(--main-color) 2px solid;
+}
+
+.learn-more-button:hover{
+  background: var(--main-color);
+  color: white;
 }
 
 /*

@@ -22,15 +22,11 @@
 
 .carousel img{
   height: 200px;
-  width: auto;;
+  width: auto;
+  display: block;
 }
 
-#carouselExampleControls{
+/* #carouselExampleControls{
   background-image: url(../img/panorama-background-short.jpg);
   background-repeat: repeat;
-}
-
-#carouselExampleControls img{
-  padding: 30px;
-  width: auto;
-}
+} */
