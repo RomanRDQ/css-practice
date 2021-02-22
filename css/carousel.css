@@ -19,3 +19,19 @@
   margin-top: 50px;
   font-size: 48px;
 }
+
+.container-of-carousel img{
+  height: 200px;
+  width: auto;
+}
+
+
+#carouselExampleControls{
+  background-image: url(../img/panorama-background-short.jpg);
+  background-repeat: repeat;
+}
+
+#carouselExampleControls img{
+  height: 400px;
+  width: auto;
+}
