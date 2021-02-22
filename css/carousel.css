@@ -1,3 +1,19 @@
 .carousel .curr {
   display: block;
+  width: 550px;
+  height: auto;
+  justify-content: center;
+  margin: auto;
 }
+
+/* .prev{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.next{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+} */
