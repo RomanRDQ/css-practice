@@ -1,9 +1,9 @@
 const images = [
-  "img/carousel-img/karusel-adidas.jpg",
-  "img/carousel-img/karusel-aerodyne.jpg"
-  "img/carousel-img/karusel-aeroplane.jpg",
-  "img/carousel-img/karusel-akando.jpg"
-  "img/carousel-img/karusel-justdoit.jpg"
+  'img/carousel-img/karusel-adidas.jpg',
+  'img/carousel-img/karusel-aerodyne.jpg',
+  'img/carousel-img/karusel-aeroplane.jpg',
+  'img/carousel-img/karusel-akando.jpg',
+  'img/carousel-img/karusel-justdoit.jpg'
 ];
 
 let currIdx = 0;
