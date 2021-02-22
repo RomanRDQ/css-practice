@@ -523,6 +523,16 @@ h4{
   background: linear-gradient(#FF8300, #f8b710);
   color:white;
 }
+
+
+.container-of-carousel{
+  background-image: url(../img/panorama-background-short.jpg);
+  background-repeat: repeat;
+  padding-top: 50px;
+  
+}
+
+
 /*
 
 
