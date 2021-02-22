@@ -542,8 +542,16 @@ h4{
 
 .promo-clock h2{
   font-size: 64px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.promo-clock span{
   color: var(--main-color);
 }
+/* .countdown{
+  border: var(--main-color) 2px solid;
+} */
 
 .sky-limit-container{
   background-image: url(../img/main-background-clouds.png);
