@@ -1,19 +1,21 @@
 .carousel .curr {
   display: block;
-  width: 550px;
+  width: 300px;
   height: auto;
   justify-content: center;
-  margin: auto;
+  margin: 100px auto;
 }
 
-/* .prev{
+.prev{
+  margin-right: 70px;
+}
+.carousel-buttons{
   display: flex;
   justify-content: center;
-  text-align: center;
 }
 
-.next{
-  display: flex;
-  justify-content: center;
-  text-align: center;
-} */
+.container-of-carousel h2{
+  color: var(--main-color);
+  margin-top: 50px;
+  font-size: 48px;
+}

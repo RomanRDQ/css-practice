@@ -1,0 +1,35 @@
+.promo-clock{
+  color: var(--main-color);
+
+}
+
+.countdown{
+  padding: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#days{
+  color: red;
+}
+
+#hours{
+  color: red;
+}
+
+#minutes{
+  color: red;
+}
+
+#seconds{
+  color: red;
+}
+
+
+.countdown small{
+  font-size: 28px;
+}
+
+.countdown h2{
+  font-size: 84px;;
+}

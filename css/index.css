@@ -529,9 +529,20 @@ h4{
   background-image: url(../img/panorama-background-short.jpg);
   background-repeat: repeat;
   padding-top: 50px;
-  
+
 }
 
+.promo-clock{
+  background-image: url(../img/panorama-background-short.jpg);
+  background-repeat: repeat;
+  padding-top: 250px;
+}
+
+
+.promo-clock h2{
+  font-size: 64px;
+  color: var(--main-color);
+}
 
 /*
 
