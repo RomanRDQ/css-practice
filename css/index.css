@@ -706,10 +706,12 @@ h4{
   display: block;
   height: 697px;
   width: 628px;
+  margin: auto;
 }
 
 .mountains{
   background-image: url(../img/mountains-background.png);
+  background-position-y: 30%;
   background-attachment: fixed;
 }
 
