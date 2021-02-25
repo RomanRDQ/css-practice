@@ -761,6 +761,7 @@ h4{
   width: 50vw;
   color: white;
   background-color:var(--main-color);
+  margin-bottom: 35px;
 }
 
 
@@ -843,19 +844,23 @@ h4{
   text-align: center;
   font-family: var(--nunito-font);
   font-size: 17px;
-  color: #242426;
+  color: white;
+}
 
+.nav-footer a:hover{
+  color: var(--main-color);
 }
 
 .nav-footer img{
   margin-top: 50px;
   width: 160px;
+  background: transparent;
 }
 
 .nav-footer h6{
   font-family: var(--nunito-font);
   font-size: 14px;
-  color: #595959;
+  color: white;
   font-weight: 700;
 }
 
@@ -863,7 +868,7 @@ h4{
   height: 1px;
   width: 100%;
   opacity: .2;
-  background-color: #595959;
+  background-color: white;
   margin-bottom: 25px;
 }
 
