@@ -378,11 +378,13 @@ h4{
 
 }
 .panorama-photo img{
-  width: 601.333px;
-  height: 234px;
-  /* display: block; */
+  width: 90%;
+  /* width: 601.333px; */
+  display: block;
+  height: 90%;
   margin-left: auto;
   margin-right: auto;
+  /* display: block; */
 }
 
 .about-us-line{
