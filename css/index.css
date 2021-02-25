@@ -79,7 +79,11 @@ header .menu a:hover {
 
 header{
   background-image: url(../img/main-background.png);
-  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+
+  /* position: relative;
   top: 0;
   right: 0;
   bottom: 0;
@@ -88,7 +92,9 @@ header{
   z-index: 0;
   border-radius: inherit;
   padding: 20px;
-  padding-bottom: 500px;
+  padding-bottom: 500px; */
+
+
   /* background-size: 139%;
   background-position-x: left 100%;
   background-position-y: bottom;
@@ -97,14 +103,14 @@ header{
 
 
 
-@media (max-width: 756px){
+/* @media (max-width: 756px){
   header{
 
     position: static;
     background-repeat: no-repeat;
     background-size: 210%;
     background-position-x: 20%;
-  }
+  } */
 
   /* .stats{
     display: flex;
@@ -112,7 +118,7 @@ header{
   } */
 }
 
-@media (min-width: 757px){
+/* @media (min-width: 757px){
   header{
     background-image: url(../img/main-background.png);
     position: static;
@@ -124,7 +130,7 @@ header{
     background-position-y: 55%;
     background-size: 150%;
     background-repeat: no-repeat; */
-  }
+  /* } */ */
 
   /* #services-img{
     width: 30px;
@@ -141,7 +147,7 @@ header{
 
 }
 
-@media (min-width: 990px){
+/* @media (min-width: 990px){
   header{
     background-image: url(../img/main-background.png);
     background-position: center;
@@ -149,9 +155,9 @@ header{
     background-position-y: 1%;
     background-size: 180%;
     background-repeat: no-repeat;
-  }
+  } */
 
-@media (min-width: 1040px){
+/* @media (min-width: 1040px){
   header{
     background-position: left top;
     background-position-x: 5%;
@@ -159,7 +165,7 @@ header{
     background-repeat: no-repeat;
     background-size: 140%;
   }
-}
+} */
 
   header .menu {
     flex-direction: column;
@@ -522,7 +528,10 @@ h4{
 }
 
 .carousel-img{
-  min-width: 300px;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container-of-carousel{

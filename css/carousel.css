@@ -6,6 +6,11 @@
   margin: 100px auto;
 }
 
+.carousel-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .prev{
   margin-right: 70px;
 }
@@ -20,15 +25,6 @@
   font-size: 48px;
 }
 
-.carousel-img{
-  min-height: 300px;
-  display: block;
-}
-.carousel img{
-  /* min-height: 230px; */
-  width: auto;
-  display: block;
-}
 
 /* #carouselExampleControls{
   background-image: url(../img/panorama-background-short.jpg);
