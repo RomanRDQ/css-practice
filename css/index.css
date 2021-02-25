@@ -106,7 +106,6 @@ header{
 
 /* @media (max-width: 756px){
   header{
-
     position: static;
     background-repeat: no-repeat;
     background-size: 210%;
@@ -653,6 +652,12 @@ h4{
   text-transform: uppercase;
   font-weight: 600;
 }
+@media(min-width: 720px){
+  .container-our-team{
+  display: flex;
+  flex-direction: row;
+  }
+}
 
 
 .team-body h3{
@@ -763,7 +768,7 @@ h4{
 }
 
 .request-forms input{
-  width: 591px;
+  width: 37em;
   margin-top: 25px;
   background-color: #e9e9e9;
   border: white;
