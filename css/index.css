@@ -457,79 +457,52 @@ h4{
   margin-right: 20px;
 }
 
-.pricing-cards{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.pricing-card{
+  align-items: center;
+  border: 1px solid rgb(0, 68, 165)
 }
 
-.pricing-options{
-  background-color: white;
-  width: 601px;
-  height: 429px;
-  margin-bottom: 50px;
-}
-.pricing-options img{
-  width: 50px;
-  height: 50px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 25px;
-}
-
-.pricing-options h5{
+.pricing-card h5{
   font-family: var(--teko-font);
-  font-size: 22px;
-  color:#242426;
+  size: 22px;
   font-weight: 700;
-  text-align: center;
-  padding-top: 40px;
+  margin-bottom: 7%;
 }
 
-.pricing-options .dollar-sign{
-  font-family: 'Teko', sans-serif;
-  font-size: 38px;
-  color: #f8b710;
-  text-align: center;
-  font-weight: 600;
-  padding-top: 18px;
+.pricing-card img{
+  width: 30%;
 }
 
-.pricing-list{
-  font-family: 'Nunito Sans', sans-serif;
-  font-size: 17px;
-  color: #595959;
-  margin-left: auto;
-  margin-right: auto;
-  /* text-align: center; */
+.pricing-card li{
   list-style-type: none;
 }
 
-.pricing-list li{
-  padding-top: 10px;
+.pricing-card ul{
   text-align: center;
 }
+.dollar-sign{
+  font-family: var(--teko-font);
+  font-size: 38px;
+  color: var(--main-color);
+  font-weight: 600;
+}
 
-.pricing-book-button{
+.hang{
+  margin-top: 18%;
+}
+
+.gliding{
+  margin-top: 7%;
+}
+
+
+.request-button-book{
   text-decoration: none;
   color: white;
-  display: block;
-  background-color: var(--main-color);
-  /* background: linear-gradient(#f8b710, #FF8300,); */
-  font-size: 14px;
-  font-family: 'Nunito Sans', sans-serif;
-  /* position: relative; */
-  font-weight: 700;
-  text-align: center;
-  margin-top: 35px;
-  margin-left: 265px;
-  margin-right: 265px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 15px 10px 15px;
+  background-color: var(--main-color) ;
 }
-
-.pricing-book-button:hover{
+.request-button-book:hover{
   background: linear-gradient(#FF8300, #f8b710);
   color:white;
 }
@@ -894,6 +867,14 @@ h4{
   opacity: .2;
   background-color: #595959;
   margin-bottom: 25px;
+}
+
+
+
+@media(min-width: 770px){
+  nav-footer{
+    
+  }
 }
 /* .mountains{
   margin-top: 50px;
