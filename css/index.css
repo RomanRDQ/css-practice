@@ -13,7 +13,7 @@ html {
 
 
 body{
-    background-color: violet;
+    background-color: white;
     max-width: 980px;
     margin: auto; 
 }
@@ -571,7 +571,9 @@ h4{
 
 .sky-limit-container{
   background-image: url(../img/main-background-clouds.png);
-  background-position-y: 550px;
+  /* background-position-y: 550px; */
+  background-size: cover;
+  background-position: bottom;
 }
 
 .sky-limit-container h2{
