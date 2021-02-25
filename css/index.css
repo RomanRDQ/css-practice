@@ -13,7 +13,7 @@ html {
 
 
 body{
-    background-color: violet;
+    background-color: white;
     max-width: 980px;
     margin: auto; 
 }
@@ -886,6 +886,13 @@ h4{
   .footer-menu a{
     padding-top: 50px;
   }
+}
+
+
+.rights{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 /* .mountains{
   margin-top: 50px;
